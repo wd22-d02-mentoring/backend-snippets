@@ -1,0 +1,22 @@
+GET http://localhost:5000
+
+### 
+POST http://localhost:5000/todo
+Content-Type: application/json
+
+{
+  "name": "Martin"
+}
+
+### ROUTE DOES NOT EXIST
+POST http://localhost:5000/todos
+
+### SIGNUP
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+  "username": "Uwe",
+  "email": "mail@grossesbewirken.metaverse",
+  "pw": "gross123"
+}
